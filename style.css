@@ -1,0 +1,95 @@
+.playercard {
+  width: 300px;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 4px 4px 8px gray;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+}
+
+.playercard button {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 0;
+
+  color: white;
+  background-color: red;
+  padding: 5px 10px;
+}
+
+.playercard a {
+  font-size: 25px;
+  color: blue;
+  margin: 5px;
+}
+
+.player-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+}
+
+.addGrp {
+  /* box-shadow: 4px 4px 8px gray; */
+  padding: 5px;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(55, 238, 98);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.playerinfo {
+  text-align: center;
+  width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  padding: 20px;
+  border-radius: 6px;
+  background-color: aliceblue;
+  transition: transform 0.4s, top;
+}
+
+.modalbtn {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px 0;
+  background: #f14e2e;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 4px 4px 8px gray;
+}
+
+.modal-img {
+  height: 250px;
+  width: 250px;
+}
+
+.full-body {
+  background-color: rgb(225, 222, 222);
+}
+
+.nav {
+  background-color: rgb(78, 198, 235);
+}
+
+.card {
+  margin-bottom: 5px;
+}
